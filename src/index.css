@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.dashedBorder {
+  border: 1px dashed black;
+}
+
+.appContainer {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-areas: "." "." ".";
+}
+
+.desktopBody {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". .";
+}
+
+.mobileBody {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "." ".";
+}
