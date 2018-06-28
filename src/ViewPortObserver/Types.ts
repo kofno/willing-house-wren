@@ -17,8 +17,8 @@ export const windowDimensions = (window: Window): Dimensions => ({
   height: window.innerHeight,
 });
 
-export const viewportType = (dimenasions: Dimensions): ViewPortType =>
-  dimenasions.width < 480 ? 'mobile' : 'desktop';
+export const viewportType = (dimensions: Dimensions): ViewPortType =>
+  dimensions.width < 480 ? 'mobile' : 'desktop';
 
 export const viewPort = (dimensions: Dimensions): ViewPort => ({
   dimensions,
